@@ -20,7 +20,7 @@ public class HrUserApplication implements CommandLineRunner{
 
 	@Override
 	public void run(String... args) throws Exception {
-		System.out.println("BCRYPT = " + passwordEncoder.encode("123456"));//imprimi um possivel bcrypt para senha passada no método "encode". Ps. para instanciar o BCryptPasswordEncoder foi necessário retorná-lo na Classe AppConfig
+		//System.out.println("BCRYPT = " + passwordEncoder.encode("123456"));//imprimi um possivel bcrypt para senha passada no método "encode". Ps. para instanciar o BCryptPasswordEncoder foi necessário retorná-lo na Classe AppConfig
 		
 	}
 
